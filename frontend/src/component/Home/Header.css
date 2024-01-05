@@ -1,0 +1,47 @@
+.inputBox > span{
+    font-family: "Roboto";
+    animation: sliding 14s linear infinite;
+    display: block;
+}
+ul li:hover{
+  text-decoration: none;
+
+}
+
+@keyframes sliding{
+    0%{
+      transform: translateX(-70%);
+    }
+    100%{
+      transform: translateX(130%);
+    }
+  }
+  .Header__topbar.space__beetween{
+    display: flex;
+    align-items:end;
+    height: 4.5rem;
+   
+  }
+  .navbar.flex.pz__10.active {
+    position: fixed;
+    background:"#008848";
+    z-index: 100;
+    top: -70px!important;
+    width: 100%;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 20%);
+    left: 0rem;
+    height:10rem;
+    display: flex;
+    justify-content: space-around;
+   
+   
+  }
+  .Header__topbar.Header__topbar.space__beetween{
+    display: flex;
+    justify-content:center ;
+    padding-top: 18px;
+    background-color: #008848;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  }

@@ -1,0 +1,12 @@
+.storeItem_image{
+    height: 25rem;
+    object-fit: contain;
+    transition: all 1s linear;
+}
+img:hover {
+    position: relative;
+    -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari 3-8 */
+    transform: scale(1.1);
+    transition: all 1s linear;
+  }

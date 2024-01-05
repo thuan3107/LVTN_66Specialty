@@ -1,0 +1,319 @@
+.ProductDetails{
+  display: flex;
+  padding: 10vb;
+}
+input:checked ~ label{
+  display: none;
+}
+input{
+  outline: none;
+}
+img.CarouselImage{
+  width: 470px;
+  height: 350px;
+  object-fit: contain;
+}
+.first__varse {margin: auto;}
+.varse__2{
+  width: 50%;
+  overflow: hidden;
+}
+.css-14j5k7k{
+  justify-content: center!important;
+  align-items: center!important;
+  display: flex!important;
+}
+.detailsBlock-1 > h2 {
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+.detailsBlock-2 > span {
+  padding: 5px 0px;
+}
+
+.detailsBlock-3-1-1 {
+  width: 60px;
+  overflow: hidden;
+  display: flex;
+  margin: 10px;
+  border: 5px solid red;
+}
+p.noReviews {
+  text-align: center;
+}
+.detailsBlock-3-1-1 > button {
+  width: 100%;
+  background: #3BB77E;
+  border: none;
+  color: #fff;
+  height: 20px;
+  cursor: pointer;
+}
+input[type="number"] {
+  border: none;
+  width: 100%;
+  text-align: center;
+}
+
+.detailsBlock-3-1 {
+  /* border: 1px solid red; */
+  display: flex;
+  margin-top: 30px;
+}
+.detailsBlock-3-1 .cartInput {
+  border: 5px solid red;
+  display: flex;
+  align-items: center;
+  height: 55px;
+  margin:15px 0px;
+  border: 1px solid #e2e2e2;
+  text-align: center;
+  position: relative;
+}
+.detailsBlock-3-1{
+  display: flex;
+}
+.quantity{
+  display: inline;
+}
+
+
+@media screen and (max-width: 600px) {
+  .quantity {
+  display: none;
+  }
+  .cartInput > input {
+    width: 2vmax;
+    padding: 0.6vmax;
+    font: 400 1.8vmax "Roboto";
+}
+}
+.cartInput > button {
+
+  margin-top: 20%;
+  margin-left: 0;
+  transform: translateY(-30%);
+  width: 45px;
+  height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 14px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.cartInput > button:hover {
+  background-color: white
+}
+
+.cartInput > input {
+  padding: 0.5vmax;
+  width: 3vmax;
+  text-align: center;
+  outline: none;
+  font: 600 0.8vmax "Roboto";
+  color: rgba(0, 0, 0, 0.74);
+  
+}
+
+.detailsBlock #pointerbtn{
+ background-color: #3BB77E;
+}
+.explain{
+ font-size: 600;
+ background-color: #fff;
+ border-color: #dee2e6 #dee2e6 #fff;
+ border-bottom:1px solid gray;
+ 
+ 
+}
+
+@media screen and (max-width: 600px) {
+.varse__2 {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+.detailsBlock-3-1{
+  flex-direction: column;
+  
+
+}
+.Description1{
+  padding: 0 3vmax;
+}
+.Description1 p {
+  padding-left: 5px;
+  line-height: 1.5;
+  border: 3px solid red;
+  font-weight: 400;
+  font-size: 24px;
+  padding-right: 5px;
+
+}
+.detailsBlock > div > h1 {
+  font-size: 3vmax;
+  color: #000!important;
+  opacity: 1;
+  padding: 1vmax 0;
+}
+.home__content{
+  width: 100%!important;
+  left: 0!important;
+}
+.home__content > div > h2 {font-size: 3vmax!important;
+line-height: 1.9;}
+.home__content > div > span{
+  height: 30px!important;
+  width: 135px!important;
+}
+button.Home__button {font-size: 2.1vmax!important;}
+.CarouselItem {
+  width: 100%;
+  height: 100%;
+  display: flex!important;
+  align-items: center!important;
+  justify-content: center!important;
+}
+.first__varse{
+  margin: unset!important;
+}
+}
+
+.detailsBlock #pointerbtn{
+  width:110px;
+  align-items: center;
+  background-color:#086d39;
+  height: 50px;
+  background-color: #086d39;
+  align-items: center;
+  padding:0 10px;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  border:#086d39;
+}
+@media screen and (max-width: 850px) {
+ .Qrcode{
+  display: none;
+ }
+ .cartInput > input {
+  width: 2vmax;
+   padding: 5px!important;
+  font: 400 1.8vmax "Roboto";
+}
+  .detailsBlock #pointerbtn{
+    background-color: rgb(8, 109, 57);
+    height: 50px;
+    width: 370px;
+    padding: 0px 9rem;
+    border-radius: 5px;
+    border: rgb(8, 109, 57);
+    font-size: 25px;
+
+  }
+  
+  .detailsBlock-3-1 .cartInput{
+    display: flex;
+    align-items: center;
+    height: 65px;
+    margin: 15px 140px;
+    border: 1px solid #e2e2e2;
+    text-align: center;
+    position: relative;
+  }
+ 
+.css-19kzrtu {
+  padding: 24px;
+  width: 370px;
+  overflow-wrap: break-word;
+
+}
+img.CarouselImage {
+  width: 370px;
+  height: 350px;
+  object-fit: contain;
+}
+.Description p{
+  width: 200px; /* chiều rộng khung viền */
+  overflow: initial; /* giới hạn khu vực hiển thị của phần tử */
+  word-wrap: break-word; 
+}
+}
+
+
+.button-order {
+  appearance: none;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  border: 1px solid #008848;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Clarkson,Helvetica,sans-serif;
+  font-size: 16px;
+  width: 300px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1em;
+  opacity: 1;
+  outline: 0;
+  padding: 10px 2em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: geometricprecision;
+  text-transform: uppercase;
+  transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-order:before {
+  animation: opacityFallbackOut .5s step-end forwards;
+  backface-visibility: hidden;
+  background-color: #EBEBEB;
+  clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: translateZ(0);
+  transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+  width: 100%;
+}
+
+.button-order:hover:before {
+  animation: opacityFallbackIn 0s step-start forwards;
+  border-radius: 10px;
+  clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+  background-color: #008848;
+}
+
+
+.button-order:after {
+  color: #FFFFFF;
+}
+
+.button-order span, .icon-mall {
+  z-index: 1;
+  margin-top: 2px;
+  position: relative;
+}
+
+.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  margin-bottom: 2px;
+  display: inline-block;
+  font-size: 2rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
